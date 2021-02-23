@@ -1,2 +1,3 @@
-# repodemo
-2 + 2 = 4
+# Repositório de demonstração
+
+Este repositório contém exemplos de código JDBC e JavaFX, para uso na disciplina de Projeto Integrador 1
