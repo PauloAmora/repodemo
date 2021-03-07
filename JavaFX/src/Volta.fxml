@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="VoltaController">
+   <children>
+      <Button fx:id="botao1" layoutX="92.0" layoutY="325.0" mnemonicParsing="false" onAction="#volta" text="Voltar" />
+      <Button fx:id="botao2" layoutX="207.0" layoutY="325.0" mnemonicParsing="false" onAction="#removeElemento" text="Remover elemento" />
+      <TableView id="tableView" fx:id="tableView" layoutX="66.0" layoutY="33.0" prefHeight="274.0" prefWidth="482.0">
+        <columns>
+          <TableColumn fx:id="tbcNome" prefWidth="154.0" text="Nome" />
+          <TableColumn fx:id="tbcSobrenome" prefWidth="139.0" text="Sobrenome" />
+            <TableColumn fx:id="tbcIdade" prefWidth="68.0" text="Idade" />
+            <TableColumn fx:id="tbcOutros" prefWidth="120.0" text="Outra info" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>
